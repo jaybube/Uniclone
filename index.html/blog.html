@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/976a6088dd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+         
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online programs for 2021</h1>
+    </section>
+
+    <!-----------blog page content-------->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="eduford_img/certificate.jpg" />
+          <h2>Our Certificate & Online programs for 2021</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos
+            rem explicabo tenetur, deserunt assumenda doloremque rerum
+            sintincidunt voluptatum fuga debitis,possimus in similique delectus
+            consectetur voluptatem odio numquam assumenda. Esse impedit libero
+            officia.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos
+            rem explicabo tenetur, deserunt assumenda doloremque rerum sint
+            aliquid quibusdam hic et totam nam! Quam eos ducimus culpasit sed.
+            Doloremque molestiae quos corporis fugiat repellendus deserunt
+            tenetur expedita aspernatur blanditiis porro illum incidunt
+            voluptatum fuga debitis,possimus in similique delectus consectetur
+            voluptatem odio numquam assumenda. Esse impedit libero officia.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos
+            rem explicabo tenetur, deserunt assumenda doloremque rerum sint
+            aliquid quibusdam hic et totam nam! Quam eos ducimus culpasit sed.
+            Doloremque molestiae quos corporis fugiat repellendus deserunt
+            tenetur expedita aspernatur blanditiis porro illum incidunt
+            voluptatum fuga debitis,possimus in similique delectus consectetur
+            voluptatem odio numquam assumenda. Esse impedit libero officia.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos
+            rem explicabo tenetur, deserunt assumenda doloremque rerum sint
+            aliquid quibusdam hic et totam nam! Quam eos ducimus culpasit sed.
+            Doloremque molestiae quos corporis fugiat repellendus deserunt
+            tenetur expedita aspernatur blanditiis porro illum incidunt .
+          </p>
+
+          <div class="comment-box">
+
+            <h3>Leave a comment</h3>
+
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="text" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="blog-right">
+          <h3>Post categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Data science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine learning</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Computer science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>Auto card</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>journalism</span>
+            <span>39</span>
+          </div>
+          <div>
+            <span>commerce</span>
+            <span>52</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------Footer-------->
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Offi numquam
+        natus esse itaque ut dolores ipsam. <br />
+        Provident incidunt amet ipsam reprehenderit et quaerat dignissimos!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+    <!--------JavaScript for toggle Menu------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
